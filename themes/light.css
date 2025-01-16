@@ -1,0 +1,15 @@
+:root{
+    --hover: #4e7a77;
+
+    --main-color-linear-gradient: linear-gradient(43deg, #87e6e9 0%, #207069 46%, #062c29 100%);
+    --main-color-linear-gradient-hover: linear-gradient(43deg, #062c29 0%, #207069 46%, #87e6e9 100%);
+}
+
+body{
+    color: var(--black) !important;
+    background-color: var(--white) !important;
+}
+
+#cart{
+    color: #fafafa;
+}
