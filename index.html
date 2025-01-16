@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>		
+	<!-- title -->
+	<title>E-commerce Website</title>
+			
+	<!-- meta -->		
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="iE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+
+	<meta name="theme-color" content="#207069">	
+	<meta name="description" content="This is an E-commerce website made by Nabila Abubakar(@beela303) for her portfolio.">
+
+	<!-- css link -->		
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" id="theme-style" href="">
+
+	<!-- Font awesome-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<script src="https://kit.fontawesome.com/ff2a6888e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!--=========================== SCROLL TO TOP ================================================-->
+	<button title="Scroll to Top" id="scroll-to-top"><i class="fas fa-arrow-up-long"></i></button>
+
+	<!--=============== NAV =======================-->
+	<nav>
+		<h1><a href="index.html">E-Commerce Website</a></h1>
+		<ul id="menu-laptop">
+			<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+			<li><a href="products.html"><i class="fas fa-store"></i> Products</a></li>
+			<li><a href="about.html"><i class="fas fa-ellipsis"></i> About Us</a></li>
+			<li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+			<li><a href="account.html"><i class="fas fa-user"></i> Account</a></li>
+		</ul>
+		<a href="cart.html"><i class="fas fa-shopping-bag" id="cart"></i></a>
+		<div id="themes">
+			<i class="fas fa-moon themeswitch" id="dark-theme" data-theme="dark"></i>
+			<i class="fas fa-sun themeswitch" id="light-theme" data-theme="light"></i>
+		</div>
+		<div id="nav-menu">
+			<ul>
+				<li id="open-menu-btn"><i class="fas fa-bars"></i></li>
+				<li id="close-menu-btn"><i class="fas fa-times"></i></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<div id="menu">
+		<ul>
+			<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+			<li><a href="products.html"><i class="fas fa-store"></i> Products</a></li>
+			<li><a href="about.html"><i class="fas fa-ellipsis"></i> About Us</a></li>
+			<li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+			<li><a href="account.html"><i class="fas fa-user"></i> Account</a></li>
+		</ul>
+	</div>
+	
+	<div id="space-top">
+		<!--=============== HOME =======================-->
+		<section id="home">
+			<div class="slidershow">
+				<div class="slides">
+					<input type="radio" name="r" id="r1" checked>
+					<input type="radio" name="r" id="r2">
+					<input type="radio" name="r" id="r3">
+					<input type="radio" name="r" id="r4">
+					<input type="radio" name="r" id="r5">
+			
+					<div class="slide s1">
+						<img src="assets/fashionista in a museum (pink frame, black bg).jpg" alt="Fashionista in a museum (pink frame, blue bg)">
+					</div>
+			
+					<div class="slide">
+						<img src="assets/fashionista in a museum (pink frame, white bg).jpg" alt="Fashionista in a museum (pink frame, white bg)">
+					</div>
+			
+					<div class="slide">
+						<img src="assets/amulet of avalor.jpg" alt="Amulet">
+					</div>
+			
+					<div class="slide">
+						<img src="assets/hall of mirage.jpg" alt="Hall of mirage">
+					</div>
+			
+					<div class="slide">
+						<img src="assets/calm ambience.jpg" alt="Calm ambience">
+					</div>
+				</div>
+			
+				<div class="navigation">
+					<label for="r1" class="bar"></label>
+					<label for="r2" class="bar"></label>
+					<label for="r3" class="bar"></label>
+					<label for="r4" class="bar"></label>
+					<label for="r5" class="bar"></label>
+				</div>
+			</div>
+
+			<div id="home-website-info">
+				<h2>Website's Name</h2>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quibusdam neque ex officia aliquam amet, sed magnam reiciendis exercitationem sequi.</p>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id quibusdam neque ex officia aliquam amet, sed magnam reiciendis exercitationem sequi.</p>
+			</div>
+		</section>
+
+		<!--=============== MISSION =======================-->
+		<section id="mission">
+			<h2>Mission</h2>
+			<div>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni hic, repellendus voluptatem eum sunt doloribus commodi nesciunt, qui ab officia repudiandae! Est animi quam, ut officia soluta tempore, reiciendis commodi, et ratione accusamus neque quaerat accusantium omnis! Sint expedita provident non placeat veritatis modi, vitae voluptates repellat. Ratione hic dolor aperiam quam labore officia ipsum asperiores nihil non necessitatibus rerum autem deleniti vero, at dignissimos placeat veritatis deserunt? Omnis quis reiciendis fugiat dolor deserunt mollitia error tempora beatae magnam saepe facere quo voluptatem esse, dolorum aut doloremque veniam blanditiis id velit ipsam accusantium explicabo obcaecati vel eos. Vel, commodi esse.</p>
+			</div>
+		</section>
+
+		<!--=============== CATEGORIES =======================-->
+		<h2>CATEGORIES</h2>
+		<section id="store-categories">
+			<a href="products.html">
+				<div class="store-category">
+					<img src="assets/hall of mirage (border).jpg" alt="Category Picture's description">
+					<p class="category-title">Category Store</p>
+				</div>
+			</a>
+			
+			<a href="products.html">
+				<div class="store-category">
+					<img src="assets/below the ocean (1).jpg" alt="Category Picture's description">
+					<p class="category-title">Category Store</p>
+				</div>
+			</a>
+
+			<a href="products.html">
+				<div class="store-category">
+					<img src="assets/amulet of avalor.jpg" alt="Category Picture's description">
+					<p class="category-title">Category Store</p>
+				</div>
+			</a>
+
+			<a href="products.html">
+				<div class="store-category">
+					<img src="assets/galactic ocean of dreams.jpg" alt="Category Picture's description">
+					<p class="category-title">Category Store</p>
+				</div>
+			</a>
+
+			<a href="products.html">
+				<div class="store-category">
+					<img src="assets/hall of mirage.jpg" alt="Category Picture's description">
+					<p class="category-title">Category Store</p>
+				</div>
+			</a>
+		</section>
+		
+		<!--=============== PRODUCTS =======================-->
+		<h2>PRODUCTS</h2>
+		<section id="products">
+			<a href="./product.html">
+				<div class="product">
+					<img src="assets/fashionista in a museum (white bg).jpg" alt="Product image's description">
+					<p class="product-title">Product Name</p>
+					<div class="product-price-stars">
+						<p class="product-price">15.00</p>
+						<div class="product-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="./product.html">
+				<div class="product">
+					<img src="assets/brown aesthetic.jpg" alt="Product image's description">
+					<p class="product-title">Product Name</p>
+					<div class="product-price-stars">
+						<p class="product-price">15.00</p>
+						<div class="product-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="./product.html">
+				<div class="product">
+					<img src="assets/fashionista in a museum (blue frame, white bg).jpg" alt="Product image's description">
+					<p class="product-title">Product Name</p>
+					<div class="product-price-stars">
+						<p class="product-price">15.00</p>
+						<div class="product-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="./product.html">
+				<div class="product">
+					<img src="assets/fashionista in a museum (pink frame, black bg).jpg" alt="Product image's description">
+					<p class="product-title">Product Name</p>
+					<div class="product-price-stars">
+						<p class="product-price">15.00</p>
+						<div class="product-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</a>
+			<a href="./product.html">
+				<div class="product">
+					<img src="assets/galactic ocean of dreams.jpg" alt="Product image's description">
+					<p class="product-title">Product Name</p>
+					<div class="product-price-stars">
+						<p class="product-price">15.00</p>
+						<div class="product-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+					</div>
+				</div>
+			</a>
+		</section>
+
+		<!--=============== BANNER =======================-->
+		<section id="banner">
+			<img src="assets/hall of mirage.jpg" alt="Banner Image's description">
+
+			<div>
+				<p>Exclusively available on Queen Beela</p>
+				<h2>Blue Aesthetic</h2>
+				<p> So pretty and luxurious	wont you want this in your home? cuz i do!</p>
+
+				<a href="product.html"><button>Buy Now →</button></a>
+			</div>
+		</section>
+
+		<!--=============== TESTIMONIAL =======================-->
+		<h2>Testimonials</h2>
+		<section id="testimonials">
+			<div class="testimonial">
+				<div class="testimonial-star">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae excepturi obcaecati aperiam? Quisquam, voluptate.</p>
+				<img src="assets/the city's starry sky (night).jpg" alt="Testimonial Images's description">
+				<p class="testimonial-name">Name of Person</p>
+			</div>
+			<div class="testimonial">
+				<div class="testimonial-star">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae excepturi obcaecati aperiam? Quisquam, voluptate.</p>
+				<img src="assets/below the ocean (2).jpg" alt="Testimonial Images's description">
+				<p class="testimonial-name">Name of Person</p>
+			</div>
+			<div class="testimonial">
+				<div class="testimonial-star">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae excepturi obcaecati aperiam? Quisquam, voluptate.</p>
+				<img src="../website-online/Assets/My Art/Artwork - copyright/InShot_20240722_184856383.jpg" alt="Testimonial Images's description">
+				<p class="testimonial-name">Name of Person</p>
+			</div>
+			<div class="testimonial">
+				<div class="testimonial-star">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae excepturi obcaecati aperiam? Quisquam, voluptate.</p>
+				<img src="assets/hall of mirage.jpg" alt="Testimonial Images's description">
+				<p class="testimonial-name">Name of Person</p>
+			</div>
+			<div class="testimonial">
+				<div class="testimonial-star">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+				</div>
+				<p class="testimonial-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere repudiandae excepturi obcaecati aperiam? Quisquam, voluptate.</p>
+				<img src="assets/below the ocean (2).jpg" alt="Testimonial Images's description">
+				<p class="testimonial-name">Name of Person</p>
+			</div>
+		</section>
+	</div>
+
+	<!--=============== FOOTER =======================-->
+	<footer>
+		<div id="footer-flex">
+			<div id="footer-1">
+				<h2>Contacts</h2>
+				<ul>
+					<li><a href="mailto:nabilaabubakar333@gmail.com">Company's E-mail</a></li>
+					<li><a href="mailto:nabilaabubakar333@gmail.com">Company's E-mail</a></li>
+					<li><a href="mailto:nabilaabubakar333@gmail.com">Company's E-mail</a></li>
+					<li><a href="mailto:nabilaabubakar333@gmail.com">Company's E-mail</a></li>
+					<li><a href="mailto:nabilaabubakar333@gmail.com">Company's E-mail</a></li>
+				</ul>
+			</div>
+			<div id="footer-2">
+				<h2>Socials</h2>
+				<ul>
+					<li><a href="https://instagram.com/beela303" title="Instagram" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+					<li><a href="https://twitter.com/beela303" title="Twitter" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+					<li><a href="https://tiktok.com/@beela303" title="TikTok" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i> TikTok</a></li>
+					<li><a href="https://youtube.com/@beela303" title="YouTube" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+					<li><a href="https://linkedin.com/in/nabilaabubakar" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a></li>
+					<li><a href="https://github.com/in/nabilaabubakar" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Github</a></li>
+				</ul>
+			</div>
+			<div id="footer-3">
+				<h2>Pages</h2>
+				<ul>
+					<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+					<li><a href="products.html"><i class="fas fa-store"></i> Products</a></li>
+					<li><a href="about.html"><i class="fas fa-ellipsis"></i> About Us</a></li>
+					<li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+					<li><a href="account.html"><i class="fas fa-user"></i> Account</a></li>
+					<li><a href="cart.html"><i class="fas fa-shopping-bag"></i> Cart</a></li>
+				</ul>
+			</div>
+			<div id="footer-4">
+				<h2>Useful Pages</h2>
+				<ul>
+					<li>Copyright info</li>
+					<li>Terms & Conditions</li>
+					<li>Privacy Policy</li>
+					<li>Cookie Policy</li>
+					<li>Cookie settings</li>
+					<li>Store Policy</li>
+					<li>Return & Refund Policy</li>
+				</ul>
+			</div>
+		</div>
+		<p>Designed & Developed by <a href="../website-online/index.html" target="_blank">Nabila Abubakar</a></p>
+	</footer>
+		
+	<!-- js link -->
+	<script src="js\jquery.min.js"> </script>
+	<script src="./js/jquery.waypoints.min.js"> </script>
+	<script src="./js/typed.min.js"></script>
+	<script src="js\main.js"> </script>
+</body>
+
+</html>
